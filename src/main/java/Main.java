@@ -12,18 +12,26 @@ public class Main
 
 
 
-  public static void main(String[] args) throws IOException
+  public static void main(String[] args) throws IOException, RestClientResponseCheckedException
   {
-    String currentDirectory = System.getProperty("user.dir");
+    //NcaaComClient ncaaComClient = new NcaaComClient();
+    //String test = ncaaComClient.getMensBasketBallPage( "2021/12/
 
-    GameArrayGenerator gameArrayGenerator = new GameArrayGenerator();
+    NcaaPageParser ncaaPageParser = new NcaaPageParser();
+    ncaaPageParser.pageToGames( "https://www.ncaa.com/scoreboard/basketball-men/d1/2021/12/01/all-conf" );
 
-    ArrayList<Game> gamesMap = gameArrayGenerator.generate2021Games();
+    return;
 
-    String json = new GsonBuilder().setPrettyPrinting().create().toJson( gamesMap );
-    File file = new File( currentDirectory + File.separator + "ncaa_2021_games.json" );
-    FileWriter fileWriter = new FileWriter( file );
-    fileWriter.write( json );
-    fileWriter.close();
+//    String currentDirectory = System.getProperty("user.dir");
+//
+//    GameArrayGenerator gameArrayGenerator = new GameArrayGenerator();
+//
+//    ArrayList<Game> gamesMap = gameArrayGenerator.generate2021Games();
+//
+//    String json = new GsonBuilder().setPrettyPrinting().create().toJson( gamesMap );
+//    File file = new File( currentDirectory + File.separator + "ncaa_2021_games.json" );
+//    FileWriter fileWriter = new FileWriter( file );
+//    fileWriter.write( json );
+//    fileWriter.close();
   }
 }

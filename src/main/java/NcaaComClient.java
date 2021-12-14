@@ -25,29 +25,32 @@ public class NcaaComClient
   //    this.restTemplate = restTemplateBuilder.rootUri( rootUrl ).build();
   //  }
 
-  public ArrayList<String> getList() throws RestClientResponseCheckedException
+  /**
+   *
+   * @param date ex: 2021/12/01
+   * @return
+   * @throws RestClientResponseCheckedException
+   */
+  public String getMensBasketBallPage(String date) throws RestClientResponseCheckedException
   {
     try
     {
       //Compose header
       HttpHeaders httpHeaders = new HttpHeaders();
-      httpHeaders.setContentType( MediaType.ALL );
 
       //compose url
       String path = UriComponentsBuilder
-          .fromPath( "/path" )
-          .queryParam( "name", "value" )
+          .fromPath( "/scoreboard/basketball-men/d1/"+date+"/all-conf" )
           .build()
           .toUriString();
 
-      //compose body
-      String body = "body";
+
 
       //Create entity
-      HttpEntity<String> httpEntity = new HttpEntity<String>( body,httpHeaders );
+      HttpEntity<String> httpEntity = new HttpEntity<String>( httpHeaders );
 
       //Make request
-      ResponseEntity<String> responseEntity = restTemplate.exchange( path, HttpMethod.POST, httpEntity, String.class );
+      ResponseEntity<String> responseEntity = restTemplate.exchange( path, HttpMethod.GET, httpEntity, String.class );
 
       //Verify body is present.
       String response = responseEntity.getBody();
@@ -56,11 +59,8 @@ public class NcaaComClient
         throw new RestClientResponseException("Received null body from rest call.",responseEntity.getStatusCodeValue(),"None.", null, null, null);
       }
 
-      //parse response for object.
-      ArrayList<String> list = new Gson().fromJson( response, ArrayList.class);
-
       //Return result
-      return list;
+      return response;
     }
     catch( RestClientResponseException restClientResponseException )
     {
