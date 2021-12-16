@@ -9,8 +9,9 @@ import java.util.ArrayList;
 public class NcaaPageParser
 {
 
-  public ArrayList<Game> pageToGames(String url) throws IOException
+  public ArrayList<Game> pageToGames(String url, String date) throws IOException
   {
+    System.out.println("parsing page: " + url);
     ArrayList<Game> games = new ArrayList<>();
 
     Document doc = Jsoup.connect(url).get();
@@ -33,12 +34,10 @@ public class NcaaPageParser
       String team1Score = team1ScoreElement.text();
       String team2Score = team2ScoreElement.text();
 
-      games.add( new Game( team1Name, team2Name, Integer.valueOf(team1Score), Integer.valueOf(team2Score), "12_1" ) );
-
-      System.out.println(team1Name + " " + team1Score);
-      System.out.println(team2Name + " " + team2Score);
-      System.out.println("----");
-
+      if(team1Score != null && !team1Score.isEmpty())
+      {
+        games.add( new Game( team1Name, team2Name, Integer.valueOf(team1Score), Integer.valueOf(team2Score), date ) );
+      }
     }
 
     return games;

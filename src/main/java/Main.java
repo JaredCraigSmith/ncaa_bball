@@ -1,11 +1,14 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.List;
 
 public class Main
 {
@@ -14,24 +17,49 @@ public class Main
 
   public static void main(String[] args) throws IOException, RestClientResponseCheckedException
   {
-    //NcaaComClient ncaaComClient = new NcaaComClient();
-    //String test = ncaaComClient.getMensBasketBallPage( "2021/12/
+    //members
+    String currentDirectory = System.getProperty("user.dir");
 
-    NcaaPageParser ncaaPageParser = new NcaaPageParser();
-    ncaaPageParser.pageToGames( "https://www.ncaa.com/scoreboard/basketball-men/d1/2021/12/01/all-conf" );
+    //Create game file
+//    GameArrayGenerator gameArrayGenerator = new GameArrayGenerator();
+//    gameArrayGenerator.generate2021GamesFile();
+
+    //Read game file
+    File file = new File( currentDirectory + File.separator + "ncaa_2021_games.json" );
+    String fileContent = new String( Files.readAllBytes(file.toPath()), StandardCharsets.UTF_8);
+    List<Game> games = new Gson().fromJson(fileContent, new TypeToken<List<Game>>(){}.getType());
+
+    //do stuff
+    int loss = 0;
+    int win = 0;
+    for(int i = 0; i < games.size(); i++)
+    {
+      Game game = games.get( i );
+      if(game.away.equals("BYU"))
+      {
+        if(game.away_score > game.home_score)
+        {
+          win += 1;
+        }
+        else
+        {
+          loss += 1;
+        }
+      }
+      else if(game.home.equals("BYU"))
+      {
+        if(game.away_score < game.home_score)
+        {
+          win += 1;
+        }
+        else
+        {
+          loss += 1;
+        }
+      }
+    }
+    System.out.println("wins: " + win + ", loss: " + loss);
 
     return;
-
-//    String currentDirectory = System.getProperty("user.dir");
-//
-//    GameArrayGenerator gameArrayGenerator = new GameArrayGenerator();
-//
-//    ArrayList<Game> gamesMap = gameArrayGenerator.generate2021Games();
-//
-//    String json = new GsonBuilder().setPrettyPrinting().create().toJson( gamesMap );
-//    File file = new File( currentDirectory + File.separator + "ncaa_2021_games.json" );
-//    FileWriter fileWriter = new FileWriter( file );
-//    fileWriter.write( json );
-//    fileWriter.close();
   }
 }

@@ -1,44 +1,56 @@
+import com.google.gson.GsonBuilder;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class GameArrayGenerator
 {
-  private String Byu = "Byu";
-  private String ClevelandSt = "ClevelandSt";
-  private String SanDiegoSt = "SanDiegoSt";
-  private String Oregon = "Oregon";
-  private String CentralMethodist = "CentralMethodist";
-  private String TxSouthern = "TxSouthern";
-  private String Utah = "Utah";
-  private String UtahValley = "UtahValley";
-  private String MissouriState = "MissouriState";
-  private String UtahState = "UtahState";
-  private String Creighton = "Creighton";
-  private String WeberState = "WeberState";
-  private String SouthFlorida = "SouthFlorida";
-  private String WestminsterUt = "WestminsterUt";
-  private String Portland = "Portland";
-  private String Pacific = "Pacific";
-  private String SaintMarys = "SaintMarys";
-  private String Gonzaga = "Gonzaga";
-  private String SanFrancisco = "SanFrancisco";
-  private String SanDiego = "SanDiego";
-  private String SantoClara = "SantoClara";
-  private String Lmu = "Lmu";
-  private String Pepperdine = "Pepperdine";
 
+  protected String currentDirectory = System.getProperty("user.dir");
+  protected String year = "2021";
 
-
-
-  public ArrayList<Game> generate2021Games()
+  public void generate2021GamesFile() throws IOException
   {
-    ArrayList<Game> gamesMap = new ArrayList<>();
-    gamesMap.add( new Game( ClevelandSt, Byu, 59, 69, "11_9" ) );
-    gamesMap.add( new Game( SanDiego, Byu, 60, 66, "11_12" ));
-    gamesMap.add( new Game( Byu, Oregon, 81, 49, "11_16" ));
-    gamesMap.add( new Game( CentralMethodist, Byu, 97, 61, "11_20" ));
-    gamesMap.add( new Game( TxSouthern, Byu, 81, 64, "11_24" ));
-    gamesMap.add( new Game( Utah, Byu, 75, 64, "11_27" ));
-    gamesMap.add( new Game( UtahValley, Byu, 65, 72, "11_27" ));
-    return gamesMap;
+    ArrayList<Game> games2021 = new ArrayList<>();
+    NcaaPageParser ncaaPageParser = new NcaaPageParser();
+
+    //parse pages.
+
+    //Nov
+    for(int i = 9; i <= 30; i++)
+    {
+      String dayString = String.valueOf(i);
+      if(i < 10)
+      {
+        dayString = "0" + dayString;
+      }
+
+      String gameDate = year + "/" + "11/" + dayString;
+      ArrayList<Game> pageGames = ncaaPageParser.pageToGames( "https://www.ncaa.com/scoreboard/basketball-men/d1/"+ gameDate +"/all-conf", gameDate );
+      games2021.addAll( pageGames );
+    }
+
+    //Dec
+    for(int i = 1; i <= 14; i++)
+    {
+      String dayString = String.valueOf(i);
+      if(i < 10)
+      {
+        dayString = "0" + dayString;
+      }
+
+      String gameDate = year + "/" + "12/" + dayString;
+      ArrayList<Game> pageGames = ncaaPageParser.pageToGames( "https://www.ncaa.com/scoreboard/basketball-men/d1/"+ gameDate +"/all-conf", gameDate );
+      games2021.addAll( pageGames );
+    }
+
+    //Write file
+    String json = new GsonBuilder().setPrettyPrinting().create().toJson( games2021 );
+    File file = new File( currentDirectory + File.separator + "ncaa_2021_games.json" );
+    FileWriter fileWriter = new FileWriter( file );
+    fileWriter.write( json );
+    fileWriter.close();
   }
 }
