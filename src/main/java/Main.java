@@ -1,11 +1,8 @@
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.*;
@@ -17,6 +14,7 @@ public class Main
 
   public static void main(String[] args) throws IOException, RestClientResponseCheckedException
   {
+
     //members
     String currentDirectory = System.getProperty("user.dir");
 
@@ -31,29 +29,12 @@ public class Main
 
     //do stuff
     OttScoreCalculator ottScoreCalculator = new OttScoreCalculator();
-    ArrayList<TeamOttResult> teamsOttResults = ottScoreCalculator.calculateOtt1Scores( games );
+    Map<String, TeamScores> allTeamsScores = ottScoreCalculator.calculateOtt1Scores( games );
 
-    teamsOttResults.sort(new Comparator<TeamOttResult>() {
-      @Override
-      public int compare(TeamOttResult o1, TeamOttResult o2)
-      {
-        if(o1.score > o2.score)
-        {
-          return -1;
-        }
-        else if(o1.score < o2.score)
-        {
-          return 1;
-        }
-        else {
-          return 0;
-        }
-      }
-    });
-
-    for(int i = 0; i < teamsOttResults.size(); i++)
+    System.out.println("team,ott,ott2");
+    for(TeamScores scores : allTeamsScores.values())
     {
-      System.out.println(i + " " + teamsOttResults.get(i));
+      System.out.println(scores);
     }
 
 //    int loss = 0;
