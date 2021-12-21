@@ -30,6 +30,8 @@ public class Main
     //do stuff
     OttScoreCalculator ottScoreCalculator = new OttScoreCalculator();
     Map<String, TeamScores> allTeamsScores = ottScoreCalculator.calculateOtt1Scores( games );
+    allTeamsScores = ottScoreCalculator.calculateOtt2Scores( allTeamsScores, games );
+
 
     System.out.println("team,ott,ott2");
     for(TeamScores scores : allTeamsScores.values())
