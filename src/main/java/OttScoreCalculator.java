@@ -8,73 +8,6 @@ public class OttScoreCalculator
 
   public Map<String, TeamScores> calculateOtt2Scores(Map<String, TeamScores> teamsOttResults, List<Game> games)
   {
-    HashMap<String, ArrayList<Double>> ottScore2PrepMap = new HashMap<>();
-    for(int i = 0; i < games.size(); i++)
-    {
-      Game game = games.get( i );
-      int scoreDifference = Math.abs(game.away_score - game.home_score);
-      boolean awayWon = game.away_score > game.home_score;
-
-      double ottScore2 = 0;
-      if(scoreDifference > 25)
-      {
-        ottScore2 = 2.5;
-      }
-      else if(scoreDifference >= 20)
-      {
-        ottScore2 = 2;
-      }
-      else if(scoreDifference >= 10)
-      {
-        ottScore2 = 1;
-      }
-      else
-      {
-        ottScore2 = 0;
-      }
-
-      if(!ottScore2PrepMap.containsKey(game.away))
-      {
-        ottScore2PrepMap.put(game.away, new ArrayList<>());
-      }
-
-      if(!ottScore2PrepMap.containsKey(game.home))
-      {
-        ottScore2PrepMap.put(game.home, new ArrayList<>());
-      }
-
-      if(awayWon)
-      {
-
-        ottScore2PrepMap.get(game.away).add(2.5 + ottScore2 + (teamsOttResults.get( game.home ).getOttScore() / 2));
-        ottScore2PrepMap.get(game.home).add(2.5 - ottScore2 + (teamsOttResults.get( game.away ).getOttScore() / 2));
-      }
-      else
-      {
-        ottScore2PrepMap.get(game.away).add(2.5 - ottScore2 + (teamsOttResults.get( game.home ).getOttScore() / 2));
-        ottScore2PrepMap.get(game.home).add(2.5 + ottScore2 + (teamsOttResults.get( game.away ).getOttScore() / 2));
-      }
-    }
-
-    for( Map.Entry<String, ArrayList<Double>> teamOttPrepScores : ottScore2PrepMap.entrySet())
-    {
-      double score = 0;
-      for(int i = 0; i < teamOttPrepScores.getValue().size(); i++)
-      {
-        score += teamOttPrepScores.getValue().get(i);
-      }
-      score = score / teamOttPrepScores.getValue().size();
-
-      TeamScores teamScores = teamsOttResults.get( teamOttPrepScores.getKey() );
-      teamScores.setOtt2Score( score );
-    }
-
-    return teamsOttResults;
-  }
-
-
-  public Map<String, TeamScores> calculateOtt1Scores( List<Game> games)
-  {
     HashMap<String, ArrayList<Double>> ottScorePrepMap = new HashMap<>();
     for(int i = 0; i < games.size(); i++)
     {
@@ -83,13 +16,25 @@ public class OttScoreCalculator
       boolean awayWon = game.away_score > game.home_score;
 
       double ottScore = 0;
-      if(scoreDifference > 25)
+      if(scoreDifference >= 35)
+      {
+        ottScore = 3.5;
+      }
+      else if(scoreDifference >= 30)
+      {
+        ottScore = 3;
+      }
+      else if(scoreDifference >= 25)
       {
         ottScore = 2.5;
       }
       else if(scoreDifference >= 20)
       {
         ottScore = 2;
+      }
+      else if( scoreDifference >= 15 )
+      {
+        ottScore = 1.5;
       }
       else if(scoreDifference >= 10)
       {
@@ -112,13 +57,91 @@ public class OttScoreCalculator
 
       if(awayWon)
       {
-        ottScorePrepMap.get(game.away).add(2.5 + ottScore);
-        ottScorePrepMap.get(game.home).add(2.5 - ottScore);
+        ottScorePrepMap.get(game.away).add(((3.5 + ottScore) / 7) * teamsOttResults.get( game.home ).getOttScore());
+        ottScorePrepMap.get(game.home).add(((3.5 - ottScore) / 7) * teamsOttResults.get( game.away ).getOttScore());
       }
       else
       {
-        ottScorePrepMap.get(game.away).add(2.5 - ottScore);
-        ottScorePrepMap.get(game.home).add(2.5 + ottScore);
+        ottScorePrepMap.get(game.away).add(((3.5 - ottScore) / 7) * teamsOttResults.get( game.home ).getOttScore());
+        ottScorePrepMap.get(game.home).add(((3.5 + ottScore) / 7) * teamsOttResults.get( game.away ).getOttScore());
+      }
+    }
+
+    for( Map.Entry<String, ArrayList<Double>> teamOttPrepScores : ottScorePrepMap.entrySet())
+    {
+      double score = 0;
+      for(int i = 0; i < teamOttPrepScores.getValue().size(); i++)
+      {
+        score += teamOttPrepScores.getValue().get(i);
+      }
+      score = score / teamOttPrepScores.getValue().size();
+
+      TeamScores teamScores = teamsOttResults.get( teamOttPrepScores.getKey() );
+      teamScores.setOttScore( score );
+    }
+
+    return teamsOttResults;
+  }
+
+
+  public Map<String, TeamScores> calculateOtt1Scores( List<Game> games)
+  {
+    HashMap<String, ArrayList<Double>> ottScorePrepMap = new HashMap<>();
+    for(int i = 0; i < games.size(); i++)
+    {
+      Game game = games.get( i );
+      int scoreDifference = Math.abs(game.away_score - game.home_score);
+      boolean awayWon = game.away_score > game.home_score;
+
+      double ottScore = 0;
+      if(scoreDifference >= 35)
+      {
+        ottScore = 3.5;
+      }
+      else if(scoreDifference >= 30)
+      {
+        ottScore = 3;
+      }
+      else if(scoreDifference >= 25)
+      {
+        ottScore = 2.5;
+      }
+      else if(scoreDifference >= 20)
+      {
+        ottScore = 2;
+      }
+      else if( scoreDifference >= 15 )
+      {
+        ottScore = 1.5;
+      }
+      else if(scoreDifference >= 10)
+      {
+        ottScore = 1;
+      }
+      else
+      {
+        ottScore = 0;
+      }
+
+      if(!ottScorePrepMap.containsKey(game.away))
+      {
+        ottScorePrepMap.put(game.away, new ArrayList<>());
+      }
+
+      if(!ottScorePrepMap.containsKey(game.home))
+      {
+        ottScorePrepMap.put(game.home, new ArrayList<>());
+      }
+
+      if(awayWon)
+      {
+        ottScorePrepMap.get(game.away).add(3.5 + ottScore);
+        ottScorePrepMap.get(game.home).add(3.5 - ottScore);
+      }
+      else
+      {
+        ottScorePrepMap.get(game.away).add(3.5 - ottScore);
+        ottScorePrepMap.get(game.home).add(3.5 + ottScore);
       }
     }
 

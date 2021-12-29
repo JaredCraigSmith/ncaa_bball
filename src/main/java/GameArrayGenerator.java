@@ -33,7 +33,7 @@ public class GameArrayGenerator
     }
 
     //Dec
-    for(int i = 1; i <= 14; i++)
+    for(int i = 1; i <= 28; i++)
     {
       String dayString = String.valueOf(i);
       if(i < 10)

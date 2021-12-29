@@ -1715,10 +1715,10 @@
     "date": "2021/11/12"
   },
   {
-    "away": "Utah St.",
-    "home": "Richmond",
-    "away_score": 85,
-    "home_score": 74,
+    "away": "San Diego",
+    "home": "Nevada",
+    "away_score": 75,
+    "home_score": 68,
     "date": "2021/11/12"
   },
   {
@@ -1726,6 +1726,13 @@
     "home": "Rhode Island",
     "away_score": 64,
     "home_score": 83,
+    "date": "2021/11/12"
+  },
+  {
+    "away": "Utah St.",
+    "home": "Richmond",
+    "away_score": 85,
+    "home_score": 74,
     "date": "2021/11/12"
   },
   {
@@ -1750,13 +1757,6 @@
     "date": "2021/11/12"
   },
   {
-    "away": "Western Ky.",
-    "home": "Minnesota",
-    "away_score": 69,
-    "home_score": 73,
-    "date": "2021/11/12"
-  },
-  {
     "away": "Western Mich.",
     "home": "Michigan St.",
     "away_score": 46,
@@ -1764,17 +1764,17 @@
     "date": "2021/11/12"
   },
   {
+    "away": "Western Ky.",
+    "home": "Minnesota",
+    "away_score": 69,
+    "home_score": 73,
+    "date": "2021/11/12"
+  },
+  {
     "away": "ETSU",
     "home": "App State",
     "away_score": 67,
     "home_score": 69,
-    "date": "2021/11/12"
-  },
-  {
-    "away": "Morehead St.",
-    "home": "UAB",
-    "away_score": 71,
-    "home_score": 85,
     "date": "2021/11/12"
   },
   {
@@ -1806,17 +1806,17 @@
     "date": "2021/11/12"
   },
   {
-    "away": "Furman",
-    "home": "Louisville",
-    "away_score": 80,
-    "home_score": 72,
-    "date": "2021/11/12"
-  },
-  {
     "away": "Penn",
     "home": "George Mason",
     "away_score": 66,
     "home_score": 87,
+    "date": "2021/11/12"
+  },
+  {
+    "away": "Furman",
+    "home": "Louisville",
+    "away_score": 80,
+    "home_score": 72,
     "date": "2021/11/12"
   },
   {
@@ -1848,10 +1848,10 @@
     "date": "2021/11/12"
   },
   {
-    "away": "UNC Greensboro",
-    "home": "Northern Ky.",
-    "away_score": 70,
-    "home_score": 69,
+    "away": "Salisbury",
+    "home": "Delaware St.",
+    "away_score": 91,
+    "home_score": 78,
     "date": "2021/11/12"
   },
   {
@@ -1862,10 +1862,24 @@
     "date": "2021/11/12"
   },
   {
+    "away": "Morehead St.",
+    "home": "UAB",
+    "away_score": 71,
+    "home_score": 85,
+    "date": "2021/11/12"
+  },
+  {
     "away": "USC Upstate",
     "home": "Charlotte",
     "away_score": 64,
     "home_score": 76,
+    "date": "2021/11/12"
+  },
+  {
+    "away": "UNC Greensboro",
+    "home": "Northern Ky.",
+    "away_score": 70,
+    "home_score": 69,
     "date": "2021/11/12"
   },
   {
@@ -1918,13 +1932,6 @@
     "date": "2021/11/12"
   },
   {
-    "away": "Wofford",
-    "home": "Clemson",
-    "away_score": 68,
-    "home_score": 76,
-    "date": "2021/11/12"
-  },
-  {
     "away": "Bethune-Cookman",
     "home": "Middle Tenn.",
     "away_score": 51,
@@ -1953,24 +1960,10 @@
     "date": "2021/11/12"
   },
   {
-    "away": "Salisbury",
-    "home": "Delaware St.",
-    "away_score": 91,
-    "home_score": 78,
-    "date": "2021/11/12"
-  },
-  {
-    "away": "Champion Chris.",
-    "home": "Little Rock",
-    "away_score": 51,
-    "home_score": 115,
-    "date": "2021/11/12"
-  },
-  {
-    "away": "Lipscomb",
-    "home": "Col. of Charleston",
-    "away_score": 77,
-    "home_score": 86,
+    "away": "Wofford",
+    "home": "Clemson",
+    "away_score": 68,
+    "home_score": 76,
     "date": "2021/11/12"
   },
   {
@@ -1981,13 +1974,6 @@
     "date": "2021/11/12"
   },
   {
-    "away": "Jackson St.",
-    "home": "Louisiana Tech",
-    "away_score": 68,
-    "home_score": 70,
-    "date": "2021/11/12"
-  },
-  {
     "away": "Western Caro.",
     "home": "Wake Forest",
     "away_score": 75,
@@ -1995,10 +1981,31 @@
     "date": "2021/11/12"
   },
   {
+    "away": "Lipscomb",
+    "home": "Col. of Charleston",
+    "away_score": 77,
+    "home_score": 86,
+    "date": "2021/11/12"
+  },
+  {
+    "away": "Champion Chris.",
+    "home": "Little Rock",
+    "away_score": 51,
+    "home_score": 115,
+    "date": "2021/11/12"
+  },
+  {
     "away": "Stetson",
     "home": "Georgia Tech",
     "away_score": 52,
     "home_score": 77,
+    "date": "2021/11/12"
+  },
+  {
+    "away": "Jackson St.",
+    "home": "Louisiana Tech",
+    "away_score": 68,
+    "home_score": 70,
     "date": "2021/11/12"
   },
   {
@@ -2415,10 +2422,10 @@
     "date": "2021/11/13"
   },
   {
-    "away": "St. Thomas (MN)",
-    "home": "St. Francis Brooklyn",
-    "away_score": 91,
-    "home_score": 73,
+    "away": "Colgate",
+    "home": "NC State",
+    "away_score": 74,
+    "home_score": 77,
     "date": "2021/11/13"
   },
   {
@@ -2436,10 +2443,10 @@
     "date": "2021/11/13"
   },
   {
-    "away": "Colgate",
-    "home": "NC State",
-    "away_score": 74,
-    "home_score": 77,
+    "away": "St. Thomas (MN)",
+    "home": "St. Francis Brooklyn",
+    "away_score": 91,
+    "home_score": 73,
     "date": "2021/11/13"
   },
   {
@@ -2447,6 +2454,13 @@
     "home": "Miami (OH)",
     "away_score": 75,
     "home_score": 104,
+    "date": "2021/11/13"
+  },
+  {
+    "away": "Mercer",
+    "home": "Winthrop",
+    "away_score": 85,
+    "home_score": 88,
     "date": "2021/11/13"
   },
   {
@@ -2461,13 +2475,6 @@
     "home": "Rutgers",
     "away_score": 35,
     "home_score": 48,
-    "date": "2021/11/13"
-  },
-  {
-    "away": "Mercer",
-    "home": "Winthrop",
-    "away_score": 85,
-    "home_score": 88,
     "date": "2021/11/13"
   },
   {
@@ -2541,6 +2548,13 @@
     "date": "2021/11/13"
   },
   {
+    "away": "Alabama A\u0026M",
+    "home": "Jacksonville St.",
+    "away_score": 47,
+    "home_score": 70,
+    "date": "2021/11/13"
+  },
+  {
     "away": "Loyola Maryland",
     "home": "Col. of Charleston",
     "away_score": 72,
@@ -2555,24 +2569,10 @@
     "date": "2021/11/13"
   },
   {
-    "away": "Alabama A\u0026M",
-    "home": "Jacksonville St.",
-    "away_score": 47,
-    "home_score": 70,
-    "date": "2021/11/13"
-  },
-  {
     "away": "UMass Lowell",
     "home": "Dayton",
     "away_score": 59,
     "home_score": 58,
-    "date": "2021/11/13"
-  },
-  {
-    "away": "San Diego",
-    "home": "Nevada",
-    "away_score": 75,
-    "home_score": 68,
     "date": "2021/11/13"
   },
   {
@@ -2835,10 +2835,10 @@
     "date": "2021/11/13"
   },
   {
-    "away": "Bryn Athyn",
-    "home": "UMES",
-    "away_score": 42,
-    "home_score": 91,
+    "away": "North Ala.",
+    "home": "Virgin Islands",
+    "away_score": 99,
+    "home_score": 47,
     "date": "2021/11/13"
   },
   {
@@ -2863,10 +2863,10 @@
     "date": "2021/11/13"
   },
   {
-    "away": "North Ala.",
-    "home": "Virgin Islands",
-    "away_score": 99,
-    "home_score": 47,
+    "away": "Bryn Athyn",
+    "home": "UMES",
+    "away_score": 42,
+    "home_score": 91,
     "date": "2021/11/13"
   },
   {
@@ -8554,6 +8554,13 @@
     "date": "2021/11/28"
   },
   {
+    "away": "North Florida",
+    "home": "FIU",
+    "away_score": 69,
+    "home_score": 84,
+    "date": "2021/11/28"
+  },
+  {
     "away": "Bethune-Cookman",
     "home": "Seton Hall",
     "away_score": 70,
@@ -8568,10 +8575,10 @@
     "date": "2021/11/28"
   },
   {
-    "away": "North Florida",
-    "home": "FIU",
-    "away_score": 69,
-    "home_score": 84,
+    "away": "Fordham",
+    "home": "Central Conn. St.",
+    "away_score": 89,
+    "home_score": 83,
     "date": "2021/11/28"
   },
   {
@@ -8603,13 +8610,6 @@
     "date": "2021/11/28"
   },
   {
-    "away": "Fordham",
-    "home": "Central Conn. St.",
-    "away_score": 89,
-    "home_score": 83,
-    "date": "2021/11/28"
-  },
-  {
     "away": "Western Mich.",
     "home": "Southeastern La.",
     "away_score": 81,
@@ -8621,13 +8621,6 @@
     "home": "Fla. Atlantic",
     "away_score": 69,
     "home_score": 65,
-    "date": "2021/11/28"
-  },
-  {
-    "away": "Loyola Maryland",
-    "home": "Fairfield",
-    "away_score": 75,
-    "home_score": 70,
     "date": "2021/11/28"
   },
   {
@@ -8652,10 +8645,10 @@
     "date": "2021/11/28"
   },
   {
-    "away": "The Citadel",
-    "home": "South Carolina St.",
-    "away_score": 91,
-    "home_score": 79,
+    "away": "Chicago St.",
+    "home": "Bowling Green",
+    "away_score": 57,
+    "home_score": 75,
     "date": "2021/11/28"
   },
   {
@@ -8680,17 +8673,17 @@
     "date": "2021/11/28"
   },
   {
-    "away": "Chicago St.",
-    "home": "Bowling Green",
-    "away_score": 57,
-    "home_score": 75,
-    "date": "2021/11/28"
-  },
-  {
     "away": "Rider",
     "home": "South Carolina",
     "away_score": 58,
     "home_score": 65,
+    "date": "2021/11/28"
+  },
+  {
+    "away": "Loyola Maryland",
+    "home": "Fairfield",
+    "away_score": 75,
+    "home_score": 70,
     "date": "2021/11/28"
   },
   {
@@ -8888,6 +8881,20 @@
     "away_score": 74,
     "home_score": 59,
     "date": "2021/11/28"
+  },
+  {
+    "away": "The Citadel",
+    "home": "South Carolina St.",
+    "away_score": 91,
+    "home_score": 79,
+    "date": "2021/11/28"
+  },
+  {
+    "away": "Norfolk St.",
+    "home": "Grambling",
+    "away_score": 70,
+    "home_score": 63,
+    "date": "2021/11/29"
   },
   {
     "away": "Hartford",
@@ -9098,13 +9105,6 @@
     "away_score": 47,
     "home_score": 87,
     "date": "2021/11/29"
-  },
-  {
-    "away": "Norfolk St.",
-    "home": "Grambling",
-    "away_score": 70,
-    "home_score": 63,
-    "date": "2021/11/30"
   },
   {
     "away": "Saginaw Valley",
@@ -9989,27 +9989,6 @@
     "date": "2021/12/02"
   },
   {
-    "away": "Wright St.",
-    "home": "Purdue Fort Wayne",
-    "away_score": 86,
-    "home_score": 73,
-    "date": "2021/12/02"
-  },
-  {
-    "away": "Fairleigh Dickinson",
-    "home": "Drexel",
-    "away_score": 65,
-    "home_score": 86,
-    "date": "2021/12/02"
-  },
-  {
-    "away": "Edward Waters",
-    "home": "North Florida",
-    "away_score": 57,
-    "home_score": 103,
-    "date": "2021/12/02"
-  },
-  {
     "away": "Missouri",
     "home": "Liberty",
     "away_score": 45,
@@ -10017,31 +9996,10 @@
     "date": "2021/12/02"
   },
   {
-    "away": "Delaware",
-    "home": "Delaware St.",
-    "away_score": 59,
-    "home_score": 48,
-    "date": "2021/12/02"
-  },
-  {
-    "away": "East. Mennonite",
-    "home": "James Madison",
-    "away_score": 54,
-    "home_score": 96,
-    "date": "2021/12/02"
-  },
-  {
-    "away": "Saint Elizabeth",
-    "home": "NJIT",
-    "away_score": 43,
-    "home_score": 76,
-    "date": "2021/12/02"
-  },
-  {
-    "away": "Detroit Mercy",
-    "home": "IUPUI",
-    "away_score": 69,
-    "home_score": 45,
+    "away": "Northern Ky.",
+    "home": "Cleveland St.",
+    "away_score": 58,
+    "home_score": 72,
     "date": "2021/12/02"
   },
   {
@@ -10052,10 +10010,52 @@
     "date": "2021/12/02"
   },
   {
-    "away": "Northern Ky.",
-    "home": "Cleveland St.",
-    "away_score": 58,
-    "home_score": 72,
+    "away": "Detroit Mercy",
+    "home": "IUPUI",
+    "away_score": 69,
+    "home_score": 45,
+    "date": "2021/12/02"
+  },
+  {
+    "away": "Saint Elizabeth",
+    "home": "NJIT",
+    "away_score": 43,
+    "home_score": 76,
+    "date": "2021/12/02"
+  },
+  {
+    "away": "East. Mennonite",
+    "home": "James Madison",
+    "away_score": 54,
+    "home_score": 96,
+    "date": "2021/12/02"
+  },
+  {
+    "away": "Wright St.",
+    "home": "Purdue Fort Wayne",
+    "away_score": 86,
+    "home_score": 73,
+    "date": "2021/12/02"
+  },
+  {
+    "away": "Delaware",
+    "home": "Delaware St.",
+    "away_score": 59,
+    "home_score": 48,
+    "date": "2021/12/02"
+  },
+  {
+    "away": "Edward Waters",
+    "home": "North Florida",
+    "away_score": 57,
+    "home_score": 103,
+    "date": "2021/12/02"
+  },
+  {
+    "away": "Fairleigh Dickinson",
+    "home": "Drexel",
+    "away_score": 65,
+    "home_score": 86,
     "date": "2021/12/02"
   },
   {
@@ -10076,13 +10076,6 @@
     "away": "Oral Roberts",
     "home": "TCU",
     "away_score": 63,
-    "home_score": 71,
-    "date": "2021/12/02"
-  },
-  {
-    "away": "Jarvis Christian",
-    "home": "Grambling",
-    "away_score": 44,
     "home_score": 71,
     "date": "2021/12/02"
   },
@@ -10143,17 +10136,24 @@
     "date": "2021/12/02"
   },
   {
-    "away": "Valparaiso",
-    "home": "Drake",
-    "away_score": 66,
-    "home_score": 73,
+    "away": "Portland St.",
+    "home": "Idaho St.",
+    "away_score": 63,
+    "home_score": 55,
     "date": "2021/12/02"
   },
   {
-    "away": "Denver",
-    "home": "Wyoming",
-    "away_score": 64,
-    "home_score": 77,
+    "away": "Saint Mary\u0027s (CA)",
+    "home": "Utah St.",
+    "away_score": 60,
+    "home_score": 58,
+    "date": "2021/12/02"
+  },
+  {
+    "away": "Northern Ariz.",
+    "home": "Weber St.",
+    "away_score": 44,
+    "home_score": 67,
     "date": "2021/12/02"
   },
   {
@@ -10171,24 +10171,17 @@
     "date": "2021/12/02"
   },
   {
-    "away": "Northern Ariz.",
-    "home": "Weber St.",
-    "away_score": 44,
-    "home_score": 67,
+    "away": "Denver",
+    "home": "Wyoming",
+    "away_score": 64,
+    "home_score": 77,
     "date": "2021/12/02"
   },
   {
-    "away": "Saint Mary\u0027s (CA)",
-    "home": "Utah St.",
-    "away_score": 60,
-    "home_score": 58,
-    "date": "2021/12/02"
-  },
-  {
-    "away": "Portland St.",
-    "home": "Idaho St.",
-    "away_score": 63,
-    "home_score": 55,
+    "away": "Valparaiso",
+    "home": "Drake",
+    "away_score": 66,
+    "home_score": 73,
     "date": "2021/12/02"
   },
   {
@@ -10217,6 +10210,13 @@
     "home": "California",
     "away_score": 61,
     "home_score": 73,
+    "date": "2021/12/02"
+  },
+  {
+    "away": "Jarvis Christian",
+    "home": "Grambling",
+    "away_score": 44,
+    "home_score": 71,
     "date": "2021/12/02"
   },
   {
@@ -10675,13 +10675,6 @@
     "date": "2021/12/04"
   },
   {
-    "away": "Delaware St.",
-    "home": "Longwood",
-    "away_score": 58,
-    "home_score": 78,
-    "date": "2021/12/04"
-  },
-  {
     "away": "William \u0026 Mary",
     "home": "Davidson",
     "away_score": 46,
@@ -10871,6 +10864,13 @@
     "date": "2021/12/04"
   },
   {
+    "away": "Tennessee St.",
+    "home": "Chicago St.",
+    "away_score": 49,
+    "home_score": 59,
+    "date": "2021/12/04"
+  },
+  {
     "away": "UC Merced",
     "home": "UC Davis",
     "away_score": 40,
@@ -10882,13 +10882,6 @@
     "home": "Arkansas St.",
     "away_score": 82,
     "home_score": 95,
-    "date": "2021/12/04"
-  },
-  {
-    "away": "Tennessee St.",
-    "home": "Chicago St.",
-    "away_score": 49,
-    "home_score": 59,
     "date": "2021/12/04"
   },
   {
@@ -10913,6 +10906,13 @@
     "date": "2021/12/04"
   },
   {
+    "away": "Vanderbilt",
+    "home": "SMU",
+    "away_score": 72,
+    "home_score": 84,
+    "date": "2021/12/04"
+  },
+  {
     "away": "Western Caro.",
     "home": "USC Upstate",
     "away_score": 78,
@@ -10924,13 +10924,6 @@
     "home": "Washington St.",
     "away_score": 63,
     "home_score": 61,
-    "date": "2021/12/04"
-  },
-  {
-    "away": "Vanderbilt",
-    "home": "SMU",
-    "away_score": 72,
-    "home_score": 84,
     "date": "2021/12/04"
   },
   {
@@ -10948,38 +10941,10 @@
     "date": "2021/12/04"
   },
   {
-    "away": "LMU (CA)",
-    "home": "Long Beach St.",
-    "away_score": 77,
-    "home_score": 74,
-    "date": "2021/12/04"
-  },
-  {
     "away": "Stetson",
     "home": "FIU",
     "away_score": 65,
     "home_score": 72,
-    "date": "2021/12/04"
-  },
-  {
-    "away": "Dartmouth",
-    "home": "FGCU",
-    "away_score": 68,
-    "home_score": 78,
-    "date": "2021/12/04"
-  },
-  {
-    "away": "Old Dominion",
-    "home": "George Mason",
-    "away_score": 60,
-    "home_score": 50,
-    "date": "2021/12/04"
-  },
-  {
-    "away": "Youngstown St.",
-    "home": "Green Bay",
-    "away_score": 82,
-    "home_score": 58,
     "date": "2021/12/04"
   },
   {
@@ -10990,24 +10955,10 @@
     "date": "2021/12/04"
   },
   {
-    "away": "CSUN",
-    "home": "Fresno St.",
-    "away_score": 43,
-    "home_score": 61,
-    "date": "2021/12/04"
-  },
-  {
-    "away": "Duquesne",
-    "home": "Marshall",
-    "away_score": 71,
-    "home_score": 72,
-    "date": "2021/12/04"
-  },
-  {
-    "away": "High Point",
-    "home": "Elon",
-    "away_score": 83,
-    "home_score": 77,
+    "away": "UMass Lowell",
+    "home": "Merrimack",
+    "away_score": 61,
+    "home_score": 57,
     "date": "2021/12/04"
   },
   {
@@ -11018,10 +10969,59 @@
     "date": "2021/12/04"
   },
   {
-    "away": "UMass Lowell",
-    "home": "Merrimack",
-    "away_score": 61,
-    "home_score": 57,
+    "away": "High Point",
+    "home": "Elon",
+    "away_score": 83,
+    "home_score": 77,
+    "date": "2021/12/04"
+  },
+  {
+    "away": "Duquesne",
+    "home": "Marshall",
+    "away_score": 71,
+    "home_score": 72,
+    "date": "2021/12/04"
+  },
+  {
+    "away": "CSUN",
+    "home": "Fresno St.",
+    "away_score": 43,
+    "home_score": 61,
+    "date": "2021/12/04"
+  },
+  {
+    "away": "LMU (CA)",
+    "home": "Long Beach St.",
+    "away_score": 77,
+    "home_score": 74,
+    "date": "2021/12/04"
+  },
+  {
+    "away": "Youngstown St.",
+    "home": "Green Bay",
+    "away_score": 82,
+    "home_score": 58,
+    "date": "2021/12/04"
+  },
+  {
+    "away": "Old Dominion",
+    "home": "George Mason",
+    "away_score": 60,
+    "home_score": 50,
+    "date": "2021/12/04"
+  },
+  {
+    "away": "Dartmouth",
+    "home": "FGCU",
+    "away_score": 68,
+    "home_score": 78,
+    "date": "2021/12/04"
+  },
+  {
+    "away": "Montana",
+    "home": "Northern Colo.",
+    "away_score": 75,
+    "home_score": 78,
     "date": "2021/12/04"
   },
   {
@@ -11053,10 +11053,10 @@
     "date": "2021/12/04"
   },
   {
-    "away": "Montana",
-    "home": "Northern Colo.",
-    "away_score": 75,
-    "home_score": 78,
+    "away": "Alabama",
+    "home": "Gonzaga",
+    "away_score": 91,
+    "home_score": 82,
     "date": "2021/12/04"
   },
   {
@@ -11081,13 +11081,6 @@
     "date": "2021/12/04"
   },
   {
-    "away": "Alabama",
-    "home": "Gonzaga",
-    "away_score": 91,
-    "home_score": 82,
-    "date": "2021/12/04"
-  },
-  {
     "away": "South Alabama",
     "home": "Jacksonville St.",
     "away_score": 74,
@@ -11095,10 +11088,10 @@
     "date": "2021/12/04"
   },
   {
-    "away": "St. Katherine",
-    "home": "Dixie St.",
-    "away_score": 65,
-    "home_score": 97,
+    "away": "Iowa St.",
+    "home": "Creighton",
+    "away_score": 64,
+    "home_score": 58,
     "date": "2021/12/04"
   },
   {
@@ -11109,10 +11102,10 @@
     "date": "2021/12/04"
   },
   {
-    "away": "Iowa St.",
-    "home": "Creighton",
-    "away_score": 64,
-    "home_score": 58,
+    "away": "St. Katherine",
+    "home": "Dixie St.",
+    "away_score": 65,
+    "home_score": 97,
     "date": "2021/12/04"
   },
   {
@@ -11127,6 +11120,13 @@
     "home": "Southeast Mo. St.",
     "away_score": 64,
     "home_score": 76,
+    "date": "2021/12/04"
+  },
+  {
+    "away": "Delaware St.",
+    "home": "Longwood",
+    "away_score": 58,
+    "home_score": 78,
     "date": "2021/12/04"
   },
   {
@@ -12775,13 +12775,6 @@
     "date": "2021/12/11"
   },
   {
-    "away": "Morgan St.",
-    "home": "Longwood",
-    "away_score": 55,
-    "home_score": 94,
-    "date": "2021/12/11"
-  },
-  {
     "away": "Missouri",
     "home": "Kansas",
     "away_score": 65,
@@ -12796,10 +12789,10 @@
     "date": "2021/12/11"
   },
   {
-    "away": "St. Bonaventure",
-    "home": "UConn",
-    "away_score": 64,
-    "home_score": 74,
+    "away": "Dallas Christian",
+    "home": "Northwestern St.",
+    "away_score": 67,
+    "home_score": 89,
     "date": "2021/12/11"
   },
   {
@@ -12817,6 +12810,13 @@
     "date": "2021/12/11"
   },
   {
+    "away": "St. Bonaventure",
+    "home": "UConn",
+    "away_score": 64,
+    "home_score": 74,
+    "date": "2021/12/11"
+  },
+  {
     "away": "Eastern Ill.",
     "home": "Butler",
     "away_score": 54,
@@ -12824,10 +12824,10 @@
     "date": "2021/12/11"
   },
   {
-    "away": "Dallas Christian",
-    "home": "Northwestern St.",
-    "away_score": 67,
-    "home_score": 89,
+    "away": "Oral Roberts",
+    "home": "Missouri St.",
+    "away_score": 60,
+    "home_score": 69,
     "date": "2021/12/11"
   },
   {
@@ -12838,10 +12838,10 @@
     "date": "2021/12/11"
   },
   {
-    "away": "Oral Roberts",
-    "home": "Missouri St.",
-    "away_score": 60,
-    "home_score": 69,
+    "away": "North Texas",
+    "home": "Massachusetts",
+    "away_score": 66,
+    "home_score": 57,
     "date": "2021/12/11"
   },
   {
@@ -12873,20 +12873,6 @@
     "date": "2021/12/11"
   },
   {
-    "away": "North Texas",
-    "home": "Massachusetts",
-    "away_score": 66,
-    "home_score": 57,
-    "date": "2021/12/11"
-  },
-  {
-    "away": "Manhattan",
-    "home": "Utah",
-    "away_score": 62,
-    "home_score": 96,
-    "date": "2021/12/11"
-  },
-  {
     "away": "Boston College",
     "home": "Saint Louis",
     "away_score": 68,
@@ -12901,6 +12887,13 @@
     "date": "2021/12/11"
   },
   {
+    "away": "Manhattan",
+    "home": "Utah",
+    "away_score": 62,
+    "home_score": 96,
+    "date": "2021/12/11"
+  },
+  {
     "away": "Kentucky",
     "home": "Notre Dame",
     "away_score": 62,
@@ -12912,6 +12905,13 @@
     "home": "Mississippi Val.",
     "away_score": 82,
     "home_score": 77,
+    "date": "2021/12/11"
+  },
+  {
+    "away": "LSU",
+    "home": "Georgia Tech",
+    "away_score": 69,
+    "home_score": 53,
     "date": "2021/12/11"
   },
   {
@@ -12936,10 +12936,10 @@
     "date": "2021/12/11"
   },
   {
-    "away": "LSU",
-    "home": "Georgia Tech",
-    "away_score": 69,
-    "home_score": 53,
+    "away": "Boston U.",
+    "home": "Dartmouth",
+    "away_score": 65,
+    "home_score": 62,
     "date": "2021/12/11"
   },
   {
@@ -12957,13 +12957,6 @@
     "date": "2021/12/11"
   },
   {
-    "away": "Boston U.",
-    "home": "Dartmouth",
-    "away_score": 65,
-    "home_score": 62,
-    "date": "2021/12/11"
-  },
-  {
     "away": "Bryant",
     "home": "Stony Brook",
     "away_score": 78,
@@ -12971,23 +12964,16 @@
     "date": "2021/12/11"
   },
   {
-    "away": "FGCU",
-    "home": "Robert Morris",
-    "away_score": 85,
-    "home_score": 74,
+    "away": "UC Irvine",
+    "home": "Fresno St.",
+    "away_score": 55,
+    "home_score": 63,
     "date": "2021/12/11"
   },
   {
-    "away": "Marshall",
-    "home": "Eastern Ky.",
-    "away_score": 80,
-    "home_score": 69,
-    "date": "2021/12/11"
-  },
-  {
-    "away": "Winthrop",
-    "home": "Carver",
-    "away_score": 83,
+    "away": "Alabama A\u0026M",
+    "home": "Samford",
+    "away_score": 50,
     "home_score": 52,
     "date": "2021/12/11"
   },
@@ -13006,24 +12992,24 @@
     "date": "2021/12/11"
   },
   {
-    "away": "Alabama A\u0026M",
-    "home": "Samford",
-    "away_score": 50,
+    "away": "FGCU",
+    "home": "Robert Morris",
+    "away_score": 85,
+    "home_score": 74,
+    "date": "2021/12/11"
+  },
+  {
+    "away": "Winthrop",
+    "home": "Carver",
+    "away_score": 83,
     "home_score": 52,
     "date": "2021/12/11"
   },
   {
-    "away": "UC Irvine",
-    "home": "Fresno St.",
-    "away_score": 55,
-    "home_score": 63,
-    "date": "2021/12/11"
-  },
-  {
-    "away": "Liberty",
-    "home": "SFA",
-    "away_score": 51,
-    "home_score": 63,
+    "away": "Marshall",
+    "home": "Eastern Ky.",
+    "away_score": 80,
+    "home_score": 69,
     "date": "2021/12/11"
   },
   {
@@ -13034,10 +13020,17 @@
     "date": "2021/12/11"
   },
   {
-    "away": "Norfolk St.",
-    "home": "Wichita St.",
-    "away_score": 58,
-    "home_score": 71,
+    "away": "Liberty",
+    "home": "SFA",
+    "away_score": 51,
+    "home_score": 63,
+    "date": "2021/12/11"
+  },
+  {
+    "away": "USC Upstate",
+    "home": "Wake Forest",
+    "away_score": 53,
+    "home_score": 79,
     "date": "2021/12/11"
   },
   {
@@ -13048,10 +13041,10 @@
     "date": "2021/12/11"
   },
   {
-    "away": "USC Upstate",
-    "home": "Wake Forest",
-    "away_score": 53,
-    "home_score": 79,
+    "away": "Norfolk St.",
+    "home": "Wichita St.",
+    "away_score": 58,
+    "home_score": 71,
     "date": "2021/12/11"
   },
   {
@@ -13125,13 +13118,6 @@
     "date": "2021/12/11"
   },
   {
-    "away": "New Orleans",
-    "home": "Utah St.",
-    "away_score": 50,
-    "home_score": 82,
-    "date": "2021/12/11"
-  },
-  {
     "away": "Santa Clara",
     "home": "California",
     "away_score": 60,
@@ -13143,6 +13129,13 @@
     "home": "UT Martin",
     "away_score": 84,
     "home_score": 75,
+    "date": "2021/12/11"
+  },
+  {
+    "away": "New Orleans",
+    "home": "Utah St.",
+    "away_score": 50,
+    "home_score": 82,
     "date": "2021/12/11"
   },
   {
@@ -13206,6 +13199,13 @@
     "home": "UMES",
     "away_score": 43,
     "home_score": 79,
+    "date": "2021/12/11"
+  },
+  {
+    "away": "Morgan St.",
+    "home": "Longwood",
+    "away_score": 55,
+    "home_score": 94,
     "date": "2021/12/11"
   },
   {
@@ -13907,5 +13907,2532 @@
     "away_score": 56,
     "home_score": 98,
     "date": "2021/12/14"
+  },
+  {
+    "away": "Chattanooga",
+    "home": "Belmont",
+    "away_score": 68,
+    "home_score": 76,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Howard",
+    "home": "Georgetown",
+    "away_score": 73,
+    "home_score": 85,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Mount Olive",
+    "home": "UNCW",
+    "away_score": 55,
+    "home_score": 85,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Carver",
+    "home": "Presbyterian",
+    "away_score": 33,
+    "home_score": 98,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "UCF",
+    "home": "Temple",
+    "away_score": 65,
+    "home_score": 48,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Ga. Southern",
+    "home": "Campbell",
+    "away_score": 69,
+    "home_score": 66,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Akron",
+    "home": "Wright St.",
+    "away_score": 66,
+    "home_score": 48,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Methodist",
+    "home": "Coastal Carolina",
+    "away_score": 42,
+    "home_score": 102,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Fairfield",
+    "home": "Fairleigh Dickinson",
+    "away_score": 72,
+    "home_score": 54,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "FIU",
+    "home": "Jacksonville St.",
+    "away_score": 59,
+    "home_score": 66,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "South Dakota St.",
+    "home": "Missouri St.",
+    "away_score": 63,
+    "home_score": 75,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Midway",
+    "home": "Eastern Ky.",
+    "away_score": 67,
+    "home_score": 121,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Winthrop",
+    "home": "Elon",
+    "away_score": 61,
+    "home_score": 63,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Fla. Atlantic",
+    "home": "VCU",
+    "away_score": 46,
+    "home_score": 66,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Marshall",
+    "home": "Ohio",
+    "away_score": 65,
+    "home_score": 75,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Gardner-Webb",
+    "home": "N.C. Central",
+    "away_score": 71,
+    "home_score": 72,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Johnson (FL)",
+    "home": "Bethune-Cookman",
+    "away_score": 41,
+    "home_score": 88,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Middle Tenn.",
+    "home": "Ole Miss",
+    "away_score": 52,
+    "home_score": 62,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Lamar University",
+    "home": "Texas St.",
+    "away_score": 47,
+    "home_score": 67,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Southeast Mo. St.",
+    "home": "Southern Ill.",
+    "away_score": 55,
+    "home_score": 80,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Tenn. Wesleyan",
+    "home": "Murray St.",
+    "away_score": 48,
+    "home_score": 118,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Bellarmine",
+    "home": "South Dakota",
+    "away_score": 64,
+    "home_score": 78,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Nicholls",
+    "home": "Wisconsin",
+    "away_score": 68,
+    "home_score": 71,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "CSU Bakersfield",
+    "home": "Abilene Christian",
+    "away_score": 59,
+    "home_score": 69,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Morehead St.",
+    "home": "Xavier",
+    "away_score": 63,
+    "home_score": 86,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Lipscomb",
+    "home": "Florida St.",
+    "away_score": 60,
+    "home_score": 97,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "UC Irvine",
+    "home": "Southern California",
+    "away_score": 61,
+    "home_score": 66,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Multnomah",
+    "home": "Eastern Wash.",
+    "away_score": 56,
+    "home_score": 95,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Portland",
+    "home": "Oregon",
+    "away_score": 71,
+    "home_score": 96,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "SAGU American Indian",
+    "home": "Dixie St.",
+    "away_score": 49,
+    "home_score": 114,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Northern Colo.",
+    "home": "Arizona",
+    "away_score": 76,
+    "home_score": 101,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "UC San Diego",
+    "home": "Denver",
+    "away_score": 56,
+    "home_score": 64,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Utah St.",
+    "home": "Weber St.",
+    "away_score": 95,
+    "home_score": 80,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Minn. Duluth",
+    "home": "Nevada",
+    "away_score": 62,
+    "home_score": 98,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "Omaha",
+    "home": "UNLV",
+    "away_score": 71,
+    "home_score": 84,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "New Mexico St.",
+    "home": "Washington St.",
+    "away_score": 64,
+    "home_score": 61,
+    "date": "2021/12/15"
+  },
+  {
+    "away": "UIW",
+    "home": "Rice",
+    "away_score": 55,
+    "home_score": 85,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Montreat",
+    "home": "Tennessee Tech",
+    "away_score": 60,
+    "home_score": 117,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Regent",
+    "home": "Coastal Carolina",
+    "away_score": 53,
+    "home_score": 110,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "App State",
+    "home": "Duke",
+    "away_score": 67,
+    "home_score": 92,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "St. Andrews",
+    "home": "The Citadel",
+    "away_score": 62,
+    "home_score": 102,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "UNC Greensboro",
+    "home": "UMBC",
+    "away_score": 62,
+    "home_score": 51,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Chicago St.",
+    "home": "IUPUI",
+    "away_score": 61,
+    "home_score": 55,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Col. of Charleston",
+    "home": "Stetson",
+    "away_score": 59,
+    "home_score": 67,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Immaculata",
+    "home": "Wagner",
+    "away_score": 46,
+    "home_score": 104,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Jackson St.",
+    "home": "Drake",
+    "away_score": 65,
+    "home_score": 70,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Tennessee St.",
+    "home": "Charleston So.",
+    "away_score": 78,
+    "home_score": 75,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "UT Arlington",
+    "home": "Oral Roberts",
+    "away_score": 62,
+    "home_score": 71,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Alcorn",
+    "home": "Tulsa",
+    "away_score": 62,
+    "home_score": 83,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "McNeese",
+    "home": "UTEP",
+    "away_score": 72,
+    "home_score": 82,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Dartmouth",
+    "home": "Stanford",
+    "away_score": 78,
+    "home_score": 89,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Carver",
+    "home": "South Carolina St.",
+    "away_score": 46,
+    "home_score": 105,
+    "date": "2021/12/16"
+  },
+  {
+    "away": "Liberty",
+    "home": "East Carolina",
+    "away_score": 74,
+    "home_score": 64,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "St. Bonaventure",
+    "home": "Virginia Tech",
+    "away_score": 49,
+    "home_score": 86,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Menlo",
+    "home": "Sacramento St.",
+    "away_score": 53,
+    "home_score": 67,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Richmond",
+    "home": "NC State",
+    "away_score": 83,
+    "home_score": 74,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Converse",
+    "home": "Gardner-Webb",
+    "away_score": 46,
+    "home_score": 79,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Aquinas",
+    "home": "Western Mich.",
+    "away_score": 56,
+    "home_score": 67,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Furman",
+    "home": "Mississippi St.",
+    "away_score": 66,
+    "home_score": 69,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Florida Tech",
+    "home": "Fla. Atlantic",
+    "away_score": 55,
+    "home_score": 78,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Bethesda (CA)",
+    "home": "Utah Valley",
+    "away_score": 65,
+    "home_score": 107,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Villanova",
+    "home": "Creighton",
+    "away_score": 59,
+    "home_score": 79,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "South Alabama",
+    "home": "Tarleton St.",
+    "away_score": 52,
+    "home_score": 65,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "UTRGV",
+    "home": "UTSA",
+    "away_score": 68,
+    "home_score": 50,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Florida A\u0026M",
+    "home": "Santa Clara",
+    "away_score": 66,
+    "home_score": 80,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "San Jose St.",
+    "home": "Portland",
+    "away_score": 90,
+    "home_score": 78,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Wake Forest",
+    "home": "Charlotte",
+    "away_score": 82,
+    "home_score": 79,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Redlands",
+    "home": "Cal St. Fullerton",
+    "away_score": 78,
+    "home_score": 93,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Cal Poly",
+    "home": "Fresno St.",
+    "away_score": 48,
+    "home_score": 83,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "San Diego St.",
+    "home": "Saint Mary\u0027s (CA)",
+    "away_score": 63,
+    "home_score": 53,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "North Dakota St.",
+    "home": "Pacific",
+    "away_score": 73,
+    "home_score": 61,
+    "date": "2021/12/17"
+  },
+  {
+    "away": "Westminster (PA)",
+    "home": "Youngstown St.",
+    "away_score": 54,
+    "home_score": 83,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Purdue",
+    "home": "Butler",
+    "away_score": 77,
+    "home_score": 48,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Pittsburgh",
+    "home": "St. John\u0027s (NY)",
+    "away_score": 59,
+    "home_score": 57,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "U New England",
+    "home": "Maine",
+    "away_score": 50,
+    "home_score": 86,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "N.C. Central",
+    "home": "Delaware St.",
+    "away_score": 86,
+    "home_score": 53,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Ashland",
+    "home": "Cincinnati",
+    "away_score": 57,
+    "home_score": 71,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Radford",
+    "home": "Davidson",
+    "away_score": 54,
+    "home_score": 74,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Alabama A\u0026M",
+    "home": "Indiana St.",
+    "away_score": 43,
+    "home_score": 67,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Texas Tech",
+    "home": "Gonzaga",
+    "away_score": 55,
+    "home_score": 69,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Lamar University",
+    "home": "A\u0026M-Corpus Christi",
+    "away_score": 53,
+    "home_score": 57,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "South Fla.",
+    "home": "Florida",
+    "away_score": 55,
+    "home_score": 66,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Saint Francis (PA)",
+    "home": "Illinois",
+    "away_score": 48,
+    "home_score": 106,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Hartford",
+    "home": "Central Conn. St.",
+    "away_score": 65,
+    "home_score": 75,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Trinity Baptist",
+    "home": "North Florida",
+    "away_score": 44,
+    "home_score": 92,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "TCU",
+    "home": "Georgetown",
+    "away_score": 80,
+    "home_score": 73,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "UNCW",
+    "home": "High Point",
+    "away_score": 71,
+    "home_score": 69,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "ETSU",
+    "home": "UNC Asheville",
+    "away_score": 27,
+    "home_score": 38,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "La Salle",
+    "home": "Bucknell",
+    "away_score": 70,
+    "home_score": 82,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Tennessee Tech",
+    "home": "Wright St.",
+    "away_score": 63,
+    "home_score": 72,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "CSU Bakersfield",
+    "home": "Colorado",
+    "away_score": 46,
+    "home_score": 60,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Fairleigh Dickinson",
+    "home": "Virginia",
+    "away_score": 49,
+    "home_score": 82,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Dixie St.",
+    "home": "North Dakota",
+    "away_score": 78,
+    "home_score": 69,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Bellarmine",
+    "home": "Miami (OH)",
+    "away_score": 77,
+    "home_score": 68,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Albany (NY)",
+    "home": "Niagara",
+    "away_score": 58,
+    "home_score": 66,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Austin Peay",
+    "home": "Vanderbilt",
+    "away_score": 51,
+    "home_score": 77,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Indiana",
+    "home": "Notre Dame",
+    "away_score": 64,
+    "home_score": 56,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Ecclesia",
+    "home": "Ark.-Pine Bluff",
+    "away_score": 56,
+    "home_score": 97,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Louisville",
+    "home": "Western Ky.",
+    "away_score": 72,
+    "home_score": 82,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Southeastern Bapt.",
+    "home": "North Ala.",
+    "away_score": 40,
+    "home_score": 106,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Bethel (IN)",
+    "home": "Belmont",
+    "away_score": 86,
+    "home_score": 115,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Saint Joseph\u0027s",
+    "home": "Bradley",
+    "away_score": 73,
+    "home_score": 77,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Eastern Ill.",
+    "home": "Western Ill.",
+    "away_score": 54,
+    "home_score": 71,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Southern Miss.",
+    "home": "ULM",
+    "away_score": 65,
+    "home_score": 74,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Covenant",
+    "home": "Ga. Southern",
+    "away_score": 51,
+    "home_score": 85,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Hardin-Simmons",
+    "home": "Sam Houston",
+    "away_score": 53,
+    "home_score": 103,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Elon",
+    "home": "Duke",
+    "away_score": 56,
+    "home_score": 87,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Converse",
+    "home": "USC Upstate",
+    "away_score": 38,
+    "home_score": 78,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Marquette",
+    "home": "Xavier",
+    "away_score": 71,
+    "home_score": 80,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Northern Colo.",
+    "home": "Washington St.",
+    "away_score": 56,
+    "home_score": 82,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Webber Int\u0027l",
+    "home": "Jacksonville",
+    "away_score": 48,
+    "home_score": 87,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Maryville (MO)",
+    "home": "Southern Ill.",
+    "away_score": 53,
+    "home_score": 73,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Mississippi Val.",
+    "home": "Nicholls",
+    "away_score": 73,
+    "home_score": 104,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Morgan St.",
+    "home": "Mount St. Mary\u0027s",
+    "away_score": 45,
+    "home_score": 48,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Georgia Tech",
+    "home": "Southern California",
+    "away_score": 53,
+    "home_score": 67,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Wofford",
+    "home": "Presbyterian",
+    "away_score": 76,
+    "home_score": 49,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "UNI",
+    "home": "Marshall",
+    "away_score": 75,
+    "home_score": 60,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Ball St.",
+    "home": "Illinois St.",
+    "away_score": 64,
+    "home_score": 85,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "North Texas",
+    "home": "Wichita St.",
+    "away_score": 62,
+    "home_score": 52,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "N.C. A\u0026T",
+    "home": "Howard",
+    "away_score": 57,
+    "home_score": 79,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Utah",
+    "home": "Missouri",
+    "away_score": 75,
+    "home_score": 83,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Providence",
+    "home": "UConn",
+    "away_score": 57,
+    "home_score": 53,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Ark. Baptist",
+    "home": "Troy",
+    "away_score": 64,
+    "home_score": 84,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "West Virginia",
+    "home": "UAB",
+    "away_score": 65,
+    "home_score": 59,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Marist",
+    "home": "Boston U.",
+    "away_score": 84,
+    "home_score": 79,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Paul Quinn",
+    "home": "Texas St.",
+    "away_score": 36,
+    "home_score": 75,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "SAGU American Indian",
+    "home": "Idaho",
+    "away_score": 55,
+    "home_score": 84,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Buffalo",
+    "home": "Canisius",
+    "away_score": 64,
+    "home_score": 65,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "North Carolina",
+    "home": "Kentucky",
+    "away_score": 69,
+    "home_score": 98,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "California Baptist",
+    "home": "Arizona",
+    "away_score": 60,
+    "home_score": 84,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "South Carolina",
+    "home": "Clemson",
+    "away_score": 56,
+    "home_score": 70,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Northern N.M.",
+    "home": "New Mexico St.",
+    "away_score": 60,
+    "home_score": 93,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Toccoa Falls",
+    "home": "Georgia St.",
+    "away_score": 44,
+    "home_score": 92,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Dayton",
+    "home": "Ole Miss",
+    "away_score": 68,
+    "home_score": 76,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Saint Peter\u0027s",
+    "home": "Stony Brook",
+    "away_score": 63,
+    "home_score": 64,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "S\u0027western Adventist",
+    "home": "Northwestern St.",
+    "away_score": 50,
+    "home_score": 104,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Southern Utah",
+    "home": "Michigan",
+    "away_score": 50,
+    "home_score": 87,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "George Mason",
+    "home": "Georgia",
+    "away_score": 80,
+    "home_score": 67,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "LSU",
+    "home": "Louisiana Tech",
+    "away_score": 66,
+    "home_score": 57,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Oklahoma St.",
+    "home": "Houston",
+    "away_score": 61,
+    "home_score": 72,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Caltech",
+    "home": "UC San Diego",
+    "away_score": 52,
+    "home_score": 93,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Kennesaw St.",
+    "home": "Samford",
+    "away_score": 84,
+    "home_score": 85,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Northern Ky.",
+    "home": "Eastern Ky.",
+    "away_score": 68,
+    "home_score": 81,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "San Francisco",
+    "home": "Grand Canyon",
+    "away_score": 48,
+    "home_score": 49,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Southeast Mo. St.",
+    "home": "Pepperdine",
+    "away_score": 77,
+    "home_score": 83,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Chattanooga",
+    "home": "Murray St.",
+    "away_score": 76,
+    "home_score": 87,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "SFA",
+    "home": "Kansas",
+    "away_score": 72,
+    "home_score": 80,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Central Ark.",
+    "home": "Missouri St.",
+    "away_score": 70,
+    "home_score": 106,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Bethesda (CA)",
+    "home": "Idaho St.",
+    "away_score": 68,
+    "home_score": 103,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Texas A\u0026M",
+    "home": "Oregon St.",
+    "away_score": 83,
+    "home_score": 73,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "BYU",
+    "home": "Weber St.",
+    "away_score": 89,
+    "home_score": 71,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Hofstra",
+    "home": "Arkansas",
+    "away_score": 89,
+    "home_score": 81,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Jacksonville St.",
+    "home": "Alabama",
+    "away_score": 59,
+    "home_score": 65,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Auburn",
+    "home": "Saint Louis",
+    "away_score": 74,
+    "home_score": 70,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Utah St.",
+    "home": "Iowa",
+    "away_score": 75,
+    "home_score": 94,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Portland St.",
+    "home": "CSUN",
+    "away_score": 66,
+    "home_score": 69,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "San Diego",
+    "home": "Northern Ariz.",
+    "away_score": 69,
+    "home_score": 59,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Seattle U",
+    "home": "Washington",
+    "away_score": 56,
+    "home_score": 64,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Baylor",
+    "home": "Oregon",
+    "away_score": 78,
+    "home_score": 70,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "LMU (CA)",
+    "home": "Nevada",
+    "away_score": 63,
+    "home_score": 68,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Tennessee St.",
+    "home": "South Carolina St.",
+    "away_score": 88,
+    "home_score": 90,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Alice Lloyd",
+    "home": "Morehead St.",
+    "away_score": 47,
+    "home_score": 87,
+    "date": "2021/12/18"
+  },
+  {
+    "away": "Central Mich.",
+    "home": "Detroit Mercy",
+    "away_score": 75,
+    "home_score": 89,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Fairfield",
+    "home": "Massachusetts",
+    "away_score": 73,
+    "home_score": 77,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Sacred Heart",
+    "home": "UMass Lowell",
+    "away_score": 62,
+    "home_score": 70,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "UC Irvine",
+    "home": "Duquesne",
+    "away_score": 54,
+    "home_score": 76,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Southeastern La.",
+    "home": "Iowa St.",
+    "away_score": 54,
+    "home_score": 77,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Air Force",
+    "home": "Arkansas St.",
+    "away_score": 46,
+    "home_score": 68,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Robert Morris",
+    "home": "Bowling Green",
+    "away_score": 74,
+    "home_score": 100,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Colgate",
+    "home": "Monmouth",
+    "away_score": 66,
+    "home_score": 77,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Army West Point",
+    "home": "LIU",
+    "away_score": 65,
+    "home_score": 90,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Northern Ill.",
+    "home": "UIC",
+    "away_score": 60,
+    "home_score": 61,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "William Woods",
+    "home": "SIUE",
+    "away_score": 29,
+    "home_score": 84,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Mercer",
+    "home": "FGCU",
+    "away_score": 55,
+    "home_score": 67,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Texas",
+    "home": "Stanford",
+    "away_score": 60,
+    "home_score": 53,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "UC Davis",
+    "home": "Pacific",
+    "away_score": 77,
+    "home_score": 67,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "SMU",
+    "home": "New Mexico",
+    "away_score": 90,
+    "home_score": 72,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Coastal Carolina",
+    "home": "Middle Tenn.",
+    "away_score": 80,
+    "home_score": 84,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "UT Arlington",
+    "home": "Oklahoma",
+    "away_score": 50,
+    "home_score": 70,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "UT Martin",
+    "home": "Drake",
+    "away_score": 54,
+    "home_score": 80,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Dartmouth",
+    "home": "California",
+    "away_score": 55,
+    "home_score": 61,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Portland",
+    "home": "Montana St.",
+    "away_score": 59,
+    "home_score": 61,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Howard Payne",
+    "home": "Abilene Christian",
+    "away_score": 41,
+    "home_score": 112,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Old Dominion",
+    "home": "Richmond",
+    "away_score": 61,
+    "home_score": 67,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Montana",
+    "home": "Santa Clara",
+    "away_score": 64,
+    "home_score": 79,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Tenn. Wesleyan",
+    "home": "Lipscomb",
+    "away_score": 64,
+    "home_score": 98,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Southern U.",
+    "home": "Kent St.",
+    "away_score": 78,
+    "home_score": 76,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Kansas St.",
+    "home": "Nebraska",
+    "away_score": 67,
+    "home_score": 58,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Montana Tech",
+    "home": "Boise St.",
+    "away_score": 57,
+    "home_score": 88,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "San Francisco",
+    "home": "Arizona St.",
+    "away_score": 66,
+    "home_score": 65,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Florida A\u0026M",
+    "home": "UC Santa Barbara",
+    "away_score": 62,
+    "home_score": 73,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Holy Cross",
+    "home": "Harvard",
+    "away_score": 54,
+    "home_score": 62,
+    "date": "2021/12/19"
+  },
+  {
+    "away": "Hendrix",
+    "home": "Central Ark.",
+    "away_score": 56,
+    "home_score": 90,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Oakland City",
+    "home": "Indiana St.",
+    "away_score": 69,
+    "home_score": 78,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "South Carolina St.",
+    "home": "The Citadel",
+    "away_score": 74,
+    "home_score": 57,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Western Caro.",
+    "home": "Georgia",
+    "away_score": 79,
+    "home_score": 85,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Gwynedd Mercy",
+    "home": "Rider",
+    "away_score": 57,
+    "home_score": 82,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Manhattan",
+    "home": "Charleston So.",
+    "away_score": 99,
+    "home_score": 75,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Eastern Mich.",
+    "home": "Valparaiso",
+    "away_score": 55,
+    "home_score": 67,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Delaware St.",
+    "home": "Wagner",
+    "away_score": 51,
+    "home_score": 93,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Ill. Springfield",
+    "home": "Northwestern",
+    "away_score": 50,
+    "home_score": 90,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Alcorn",
+    "home": "Baylor",
+    "away_score": 57,
+    "home_score": 94,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "UIW",
+    "home": "Purdue",
+    "away_score": 59,
+    "home_score": 79,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Stetson",
+    "home": "Miami (FL)",
+    "away_score": 72,
+    "home_score": 82,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "UMES",
+    "home": "Charlotte",
+    "away_score": 54,
+    "home_score": 70,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "St. Thomas (MN)",
+    "home": "Omaha",
+    "away_score": 63,
+    "home_score": 52,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Western Mich.",
+    "home": "Notre Dame",
+    "away_score": 52,
+    "home_score": 85,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Kansas City",
+    "home": "South Dakota St.",
+    "away_score": 57,
+    "home_score": 89,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Oral Roberts",
+    "home": "South Dakota",
+    "away_score": 82,
+    "home_score": 73,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "ULM",
+    "home": "Lamar University",
+    "away_score": 80,
+    "home_score": 77,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Northern Ariz.",
+    "home": "Gonzaga",
+    "away_score": 49,
+    "home_score": 95,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Western Ill.",
+    "home": "Denver",
+    "away_score": 84,
+    "home_score": 80,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Tex. Permian Basin",
+    "home": "New Mexico St.",
+    "away_score": 59,
+    "home_score": 84,
+    "date": "2021/12/20"
+  },
+  {
+    "away": "Carlow",
+    "home": "Bowling Green",
+    "away_score": 50,
+    "home_score": 129,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Southern Miss.",
+    "home": "East Carolina",
+    "away_score": 67,
+    "home_score": 68,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "USC Upstate",
+    "home": "Ohio",
+    "away_score": 70,
+    "home_score": 85,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Camp. Harrodsburg",
+    "home": "Tennessee St.",
+    "away_score": 66,
+    "home_score": 108,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Jacksonville",
+    "home": "Pittsburgh",
+    "away_score": 55,
+    "home_score": 64,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Spalding",
+    "home": "Miami (OH)",
+    "away_score": 56,
+    "home_score": 80,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Jacksonville St.",
+    "home": "Little Rock",
+    "away_score": 87,
+    "home_score": 67,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "UTSA",
+    "home": "Illinois St.",
+    "away_score": 64,
+    "home_score": 81,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Samford",
+    "home": "Ole Miss",
+    "away_score": 75,
+    "home_score": 73,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Dartmouth",
+    "home": "CSU Bakersfield",
+    "away_score": 57,
+    "home_score": 61,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Lyon",
+    "home": "Arkansas St.",
+    "away_score": 66,
+    "home_score": 88,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Merrimack",
+    "home": "Maine",
+    "away_score": 49,
+    "home_score": 47,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "South Carolina St.",
+    "home": "Charleston So.",
+    "away_score": 75,
+    "home_score": 65,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Mid-Atlantic Christ.",
+    "home": "N.C. A\u0026T",
+    "away_score": 63,
+    "home_score": 88,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Northwestern St.",
+    "home": "Texas A\u0026M",
+    "away_score": 61,
+    "home_score": 80,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Milligan",
+    "home": "UNC Asheville",
+    "away_score": 54,
+    "home_score": 114,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Bradley",
+    "home": "Sam Houston",
+    "away_score": 87,
+    "home_score": 61,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Kean",
+    "home": "Princeton",
+    "away_score": 59,
+    "home_score": 100,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Eastern Ill.",
+    "home": "Ball St.",
+    "away_score": 55,
+    "home_score": 75,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Fla. Atlantic",
+    "home": "High Point",
+    "away_score": 52,
+    "home_score": 55,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Tennessee Tech",
+    "home": "Cincinnati",
+    "away_score": 75,
+    "home_score": 86,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Xavier",
+    "home": "Villanova",
+    "away_score": 58,
+    "home_score": 71,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "LMU (CA)",
+    "home": "Bellarmine",
+    "away_score": 71,
+    "home_score": 57,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "American",
+    "home": "George Mason",
+    "away_score": 44,
+    "home_score": 67,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Wright St.",
+    "home": "NC State",
+    "away_score": 84,
+    "home_score": 70,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Morehead St.",
+    "home": "IUPUI",
+    "away_score": 80,
+    "home_score": 52,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Marshall",
+    "home": "Toledo",
+    "away_score": 63,
+    "home_score": 95,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Chicago St.",
+    "home": "Iowa St.",
+    "away_score": 48,
+    "home_score": 79,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Winthrop",
+    "home": "Mississippi St.",
+    "away_score": 63,
+    "home_score": 84,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Davidson",
+    "home": "Alabama",
+    "away_score": 79,
+    "home_score": 78,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Albany (NY)",
+    "home": "Lehigh",
+    "away_score": 68,
+    "home_score": 52,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Manhattan",
+    "home": "The Citadel",
+    "away_score": 77,
+    "home_score": 74,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Fresno St.",
+    "home": "Utah",
+    "away_score": 50,
+    "home_score": 55,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "App State",
+    "home": "North Carolina",
+    "away_score": 50,
+    "home_score": 70,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Presbyterian",
+    "home": "Furman",
+    "away_score": 61,
+    "home_score": 75,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Southern U.",
+    "home": "Dayton",
+    "away_score": 60,
+    "home_score": 69,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Elon",
+    "home": "Arkansas",
+    "away_score": 55,
+    "home_score": 81,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Michigan St.",
+    "home": "Oakland",
+    "away_score": 90,
+    "home_score": 78,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Delaware",
+    "home": "Iona",
+    "away_score": 72,
+    "home_score": 83,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Grambling",
+    "home": "TCU",
+    "away_score": 55,
+    "home_score": 90,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "McNeese",
+    "home": "Kansas St.",
+    "away_score": 59,
+    "home_score": 74,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Northern N.M.",
+    "home": "Northern Colo.",
+    "away_score": 54,
+    "home_score": 90,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "SIUE",
+    "home": "South Alabama",
+    "away_score": 69,
+    "home_score": 84,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Southeastern La.",
+    "home": "Iowa",
+    "away_score": 62,
+    "home_score": 93,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Air Force",
+    "home": "Tarleton St.",
+    "away_score": 37,
+    "home_score": 60,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Georgia St.",
+    "home": "Georgia Tech",
+    "away_score": 62,
+    "home_score": 72,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "N.C. Central",
+    "home": "UTEP",
+    "away_score": 61,
+    "home_score": 70,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Portland St.",
+    "home": "Utah St.",
+    "away_score": 62,
+    "home_score": 81,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Norfolk St.",
+    "home": "New Mexico",
+    "away_score": 54,
+    "home_score": 68,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Utah Valley",
+    "home": "Washington",
+    "away_score": 68,
+    "home_score": 52,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Pepperdine",
+    "home": "Oregon",
+    "away_score": 59,
+    "home_score": 68,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "UConn",
+    "home": "Marquette",
+    "away_score": 78,
+    "home_score": 70,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Santa Clara",
+    "home": "San Jose St.",
+    "away_score": 79,
+    "home_score": 57,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Southeast Mo. St.",
+    "home": "California Baptist",
+    "away_score": 68,
+    "home_score": 84,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Nicholls",
+    "home": "Oregon St.",
+    "away_score": 61,
+    "home_score": 83,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Howard",
+    "home": "Harvard",
+    "away_score": 69,
+    "home_score": 77,
+    "date": "2021/12/21"
+  },
+  {
+    "away": "Hartford",
+    "home": "Sacred Heart",
+    "away_score": 78,
+    "home_score": 71,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Campbell",
+    "home": "UNCW",
+    "away_score": 58,
+    "home_score": 65,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "A\u0026M-Corpus Christi",
+    "home": "Notre Dame",
+    "away_score": 73,
+    "home_score": 83,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "William \u0026 Mary",
+    "home": "Valparaiso",
+    "away_score": 66,
+    "home_score": 88,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Towson",
+    "home": "Navy",
+    "away_score": 69,
+    "home_score": 52,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "JWU (Charlotte)",
+    "home": "Davidson",
+    "away_score": 64,
+    "home_score": 106,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Eastern Wash.",
+    "home": "Texas Tech",
+    "away_score": 46,
+    "home_score": 78,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Piedmont",
+    "home": "Stetson",
+    "away_score": 53,
+    "home_score": 97,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Colgate",
+    "home": "Vermont",
+    "away_score": 68,
+    "home_score": 78,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Alabama St.",
+    "home": "Texas",
+    "away_score": 48,
+    "home_score": 68,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Stony Brook",
+    "home": "Florida",
+    "away_score": 62,
+    "home_score": 87,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Delaware St.",
+    "home": "Temple",
+    "away_score": 48,
+    "home_score": 85,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Army West Point",
+    "home": "South Carolina",
+    "away_score": 75,
+    "home_score": 105,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Liberty",
+    "home": "UNI",
+    "away_score": 76,
+    "home_score": 74,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Idaho St.",
+    "home": "UC Santa Barbara",
+    "away_score": 43,
+    "home_score": 56,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Bucknell",
+    "home": "Richmond",
+    "away_score": 50,
+    "home_score": 81,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "St. Thomas (MN)",
+    "home": "Denver",
+    "away_score": 74,
+    "home_score": 75,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Northwest (WA)",
+    "home": "Seattle U",
+    "away_score": 68,
+    "home_score": 100,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Crowley\u0027s Ridge",
+    "home": "Louisiana Tech",
+    "away_score": 56,
+    "home_score": 99,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Wyoming",
+    "home": "Stanford",
+    "away_score": 63,
+    "home_score": 66,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Bethesda (CA)",
+    "home": "CSUN",
+    "away_score": 82,
+    "home_score": 80,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Portland",
+    "home": "UC Davis",
+    "away_score": 65,
+    "home_score": 60,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Southern Ill.",
+    "home": "San Francisco",
+    "away_score": 52,
+    "home_score": 64,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Green Bay",
+    "home": "Minnesota",
+    "away_score": 56,
+    "home_score": 72,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Western Caro.",
+    "home": "Charlotte",
+    "away_score": 82,
+    "home_score": 98,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Murray St.",
+    "home": "Auburn",
+    "away_score": 58,
+    "home_score": 71,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Youngstown St.",
+    "home": "West Virginia",
+    "away_score": 52,
+    "home_score": 82,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Troy",
+    "home": "Mercer",
+    "away_score": 69,
+    "home_score": 65,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Pacific",
+    "home": "California",
+    "away_score": 53,
+    "home_score": 73,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Chicago St.",
+    "home": "Drake",
+    "away_score": 50,
+    "home_score": 87,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Western Ky.",
+    "home": "Kentucky",
+    "away_score": 60,
+    "home_score": 95,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Gwynedd Mercy",
+    "home": "Lafayette",
+    "away_score": 66,
+    "home_score": 87,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Sam Houston",
+    "home": "N.C. Central",
+    "away_score": 68,
+    "home_score": 51,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Clemson",
+    "home": "Virginia",
+    "away_score": 67,
+    "home_score": 50,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Bethune-Cookman",
+    "home": "Marist",
+    "away_score": 45,
+    "home_score": 68,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "FGCU",
+    "home": "Canisius",
+    "away_score": 90,
+    "home_score": 97,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Arizona",
+    "home": "Tennessee",
+    "away_score": 73,
+    "home_score": 77,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Hofstra",
+    "home": "Monmouth",
+    "away_score": 77,
+    "home_score": 71,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Northern Ky.",
+    "home": "Indiana",
+    "away_score": 61,
+    "home_score": 79,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "ETSU",
+    "home": "Georgia",
+    "away_score": 86,
+    "home_score": 84,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Prairie View",
+    "home": "Wichita St.",
+    "away_score": 66,
+    "home_score": 102,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "North Ala.",
+    "home": "UCF",
+    "away_score": 64,
+    "home_score": 75,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Col. of Charleston",
+    "home": "Old Dominion",
+    "away_score": 82,
+    "home_score": 80,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Robert Morris",
+    "home": "Saint Francis (PA)",
+    "away_score": 75,
+    "home_score": 67,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Middle Tenn.",
+    "home": "Chattanooga",
+    "away_score": 65,
+    "home_score": 77,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Kennesaw St.",
+    "home": "Nebraska",
+    "away_score": 74,
+    "home_score": 88,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Mississippi Val.",
+    "home": "UAB",
+    "away_score": 58,
+    "home_score": 100,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Lipscomb",
+    "home": "LSU",
+    "away_score": 60,
+    "home_score": 95,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "North Dakota",
+    "home": "North Dakota St.",
+    "away_score": 76,
+    "home_score": 86,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Kansas City",
+    "home": "South Dakota",
+    "away_score": 68,
+    "home_score": 57,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Oral Roberts",
+    "home": "South Dakota St.",
+    "away_score": 76,
+    "home_score": 82,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Howard Payne",
+    "home": "UT Arlington",
+    "away_score": 46,
+    "home_score": 95,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Longwood",
+    "home": "Abilene Christian",
+    "away_score": 58,
+    "home_score": 74,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Boise St.",
+    "home": "Washington St.",
+    "away_score": 58,
+    "home_score": 52,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Alcorn",
+    "home": "Oklahoma",
+    "away_score": 48,
+    "home_score": 72,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Western Ill.",
+    "home": "Omaha",
+    "away_score": 78,
+    "home_score": 84,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Texas St.",
+    "home": "Houston",
+    "away_score": 47,
+    "home_score": 80,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "UC San Diego",
+    "home": "San Diego St.",
+    "away_score": 57,
+    "home_score": 78,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Missouri",
+    "home": "Illinois",
+    "away_score": 63,
+    "home_score": 88,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "SAGU American Indian",
+    "home": "Montana St.",
+    "away_score": 73,
+    "home_score": 124,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Dixie St.",
+    "home": "Southern Utah",
+    "away_score": 59,
+    "home_score": 87,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Virginia Tech",
+    "home": "Duke",
+    "away_score": 65,
+    "home_score": 76,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Bradley",
+    "home": "UTEP",
+    "away_score": 73,
+    "home_score": 66,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "BYU",
+    "home": "South Fla.",
+    "away_score": 54,
+    "home_score": 39,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "San Diego",
+    "home": "UNLV",
+    "away_score": 57,
+    "home_score": 80,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "Missouri St.",
+    "home": "Saint Mary\u0027s (CA)",
+    "away_score": 58,
+    "home_score": 75,
+    "date": "2021/12/22"
+  },
+  {
+    "away": "St. Xavier",
+    "home": "Milwaukee",
+    "away_score": 52,
+    "home_score": 74,
+    "date": "2021/12/23"
+  },
+  {
+    "away": "Wagner",
+    "home": "Fairfield",
+    "away_score": 63,
+    "home_score": 50,
+    "date": "2021/12/23"
+  },
+  {
+    "away": "Westmont",
+    "home": "Pepperdine",
+    "away_score": 69,
+    "home_score": 96,
+    "date": "2021/12/23"
+  },
+  {
+    "away": "Liberty",
+    "home": "Stanford",
+    "away_score": 76,
+    "home_score": 79,
+    "date": "2021/12/23"
+  },
+  {
+    "away": "Fresno St.",
+    "home": "Weber St.",
+    "away_score": 69,
+    "home_score": 43,
+    "date": "2021/12/23"
+  },
+  {
+    "away": "UNI",
+    "home": "Wyoming",
+    "away_score": 69,
+    "home_score": 71,
+    "date": "2021/12/23"
+  },
+  {
+    "away": "BYU",
+    "home": "Vanderbilt",
+    "away_score": 67,
+    "home_score": 69,
+    "date": "2021/12/23"
+  },
+  {
+    "away": "Vanderbilt",
+    "home": "Hawaii",
+    "away_score": 68,
+    "home_score": 54,
+    "date": "2021/12/23"
+  },
+  {
+    "away": "South Fla.",
+    "home": "Hawaii",
+    "away_score": 76,
+    "home_score": 69,
+    "date": "2021/12/24"
+  },
+  {
+    "away": "Wyoming",
+    "home": "South Fla.",
+    "away_score": 77,
+    "home_score": 57,
+    "date": "2021/12/25"
+  },
+  {
+    "away": "Liberty",
+    "home": "BYU",
+    "away_score": 75,
+    "home_score": 80,
+    "date": "2021/12/25"
+  },
+  {
+    "away": "Brown",
+    "home": "Syracuse",
+    "away_score": 62,
+    "home_score": 93,
+    "date": "2021/12/27"
+  },
+  {
+    "away": "Dallas Christian",
+    "home": "Texas A\u0026M",
+    "away_score": 52,
+    "home_score": 102,
+    "date": "2021/12/27"
+  },
+  {
+    "away": "Alabama St.",
+    "home": "Texas Tech",
+    "away_score": 53,
+    "home_score": 75,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "North Ala.",
+    "home": "Gonzaga",
+    "away_score": 63,
+    "home_score": 93,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "Carver",
+    "home": "Jacksonville St.",
+    "away_score": 59,
+    "home_score": 123,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "Northwestern St.",
+    "home": "Baylor",
+    "away_score": 68,
+    "home_score": 104,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "Grambling",
+    "home": "Southern Ill.",
+    "away_score": 64,
+    "home_score": 75,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "Notre Dame",
+    "home": "Pittsburgh",
+    "away_score": 68,
+    "home_score": 67,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "Mt. Marty",
+    "home": "Drake",
+    "away_score": 53,
+    "home_score": 82,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "UIW",
+    "home": "Texas",
+    "away_score": 33,
+    "home_score": 78,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "Lehigh",
+    "home": "Maryland",
+    "away_score": 55,
+    "home_score": 76,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "Fresno St.",
+    "home": "Boise St.",
+    "away_score": 55,
+    "home_score": 65,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "Academy of Art",
+    "home": "San Francisco",
+    "away_score": 78,
+    "home_score": 111,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "Yale",
+    "home": "Saint Mary\u0027s (CA)",
+    "away_score": 60,
+    "home_score": 87,
+    "date": "2021/12/28"
+  },
+  {
+    "away": "La Verne",
+    "home": "California Baptist",
+    "away_score": 41,
+    "home_score": 96,
+    "date": "2021/12/28"
   }
 ]
