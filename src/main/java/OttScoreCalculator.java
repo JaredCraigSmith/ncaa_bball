@@ -13,18 +13,17 @@ public class OttScoreCalculator
     {
       Game game = games.get( i );
       int scoreDifference = Math.abs(game.away_score - game.home_score);
+
+      int score_sum = game.away_score + game.home_score;
+
+      if(score_sum < 20)
+      {
+        continue; //soccer bug
+      }
       boolean awayWon = game.away_score > game.home_score;
 
       double ottScore = 0;
-      if(scoreDifference >= 35)
-      {
-        ottScore = 3.5;
-      }
-      else if(scoreDifference >= 30)
-      {
-        ottScore = 3;
-      }
-      else if(scoreDifference >= 25)
+      if(scoreDifference >= 25)
       {
         ottScore = 2.5;
       }
@@ -57,13 +56,13 @@ public class OttScoreCalculator
 
       if(awayWon)
       {
-        ottScorePrepMap.get(game.away).add(((3.5 + ottScore) / 7) * teamsOttResults.get( game.home ).getOttScore());
-        ottScorePrepMap.get(game.home).add(((3.5 - ottScore) / 7) * teamsOttResults.get( game.away ).getOttScore());
+        ottScorePrepMap.get(game.away).add(((3.5 + ottScore) / 6) * teamsOttResults.get( game.home ).getOttScore());
+        ottScorePrepMap.get(game.home).add(((3.5 - ottScore) / 6) * teamsOttResults.get( game.away ).getOttScore());
       }
       else
       {
-        ottScorePrepMap.get(game.away).add(((3.5 - ottScore) / 7) * teamsOttResults.get( game.home ).getOttScore());
-        ottScorePrepMap.get(game.home).add(((3.5 + ottScore) / 7) * teamsOttResults.get( game.away ).getOttScore());
+        ottScorePrepMap.get(game.away).add(((3.5 - ottScore) / 6) * teamsOttResults.get( game.home ).getOttScore());
+        ottScorePrepMap.get(game.home).add(((3.5 + ottScore) / 6) * teamsOttResults.get( game.away ).getOttScore());
       }
     }
 
@@ -75,6 +74,11 @@ public class OttScoreCalculator
         score += teamOttPrepScores.getValue().get(i);
       }
       score = score / teamOttPrepScores.getValue().size();
+
+      if(teamOttPrepScores.getValue().size() < 5)
+      {
+        score = 0;
+      }
 
       TeamScores teamScores = teamsOttResults.get( teamOttPrepScores.getKey() );
       teamScores.setOttScore( score );
@@ -91,18 +95,18 @@ public class OttScoreCalculator
     {
       Game game = games.get( i );
       int scoreDifference = Math.abs(game.away_score - game.home_score);
+      int score_sum = game.away_score + game.home_score;
+
+      if(score_sum < 20)
+      {
+        continue; //soccer bug
+      }
+
       boolean awayWon = game.away_score > game.home_score;
 
       double ottScore = 0;
-      if(scoreDifference >= 35)
-      {
-        ottScore = 3.5;
-      }
-      else if(scoreDifference >= 30)
-      {
-        ottScore = 3;
-      }
-      else if(scoreDifference >= 25)
+
+      if(scoreDifference >= 25)
       {
         ottScore = 2.5;
       }
@@ -154,6 +158,11 @@ public class OttScoreCalculator
         score += teamOttPrepScores.getValue().get(i);
       }
       score = score / teamOttPrepScores.getValue().size();
+
+      if(teamOttPrepScores.getValue().size() < 5)
+      {
+        score = 0;
+      }
 
       TeamScores teamScores = new TeamScores();
       teamScores.setTeam( teamOttPrepScores.getKey() );

@@ -22,15 +22,16 @@ public class Main
 //    GameArrayGenerator gameArrayGenerator = new GameArrayGenerator();
 //    gameArrayGenerator.generate2021GamesFile();
 
+
     //Read game file
-    File file = new File( currentDirectory + File.separator + "ncaa_2021_games.json" );
+    File file = new File( currentDirectory + File.separator + "ncaa_2018_2019_games.json" );
     String fileContent = new String( Files.readAllBytes(file.toPath()), StandardCharsets.UTF_8);
     List<Game> games = new Gson().fromJson(fileContent, new TypeToken<List<Game>>(){}.getType());
 
     //do stuff
     OttScoreCalculator ottScoreCalculator = new OttScoreCalculator();
     Map<String, TeamScores> allTeamsScores = ottScoreCalculator.calculateOtt1Scores( games );
-    for(int i = 0; i < 100; i++)
+    for(int i = 0; i < 50; i++)
     {
       allTeamsScores = ottScoreCalculator.calculateOtt2Scores( allTeamsScores, games );
     }
