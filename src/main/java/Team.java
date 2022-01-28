@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class Team
 {
   public String name;
-  public int score;
+  public HashMap<String, Team> teamsPlayed = new HashMap<>();
 
 
   public Team( String name )

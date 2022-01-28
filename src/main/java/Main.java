@@ -29,50 +29,26 @@ public class Main
     List<Game> games = new Gson().fromJson(fileContent, new TypeToken<List<Game>>(){}.getType());
 
     //do stuff
-    OttScoreCalculator ottScoreCalculator = new OttScoreCalculator();
-    Map<String, TeamScores> allTeamsScores = ottScoreCalculator.calculateOtt1Scores( games );
-    for(int i = 0; i < 50; i++)
-    {
-      allTeamsScores = ottScoreCalculator.calculateOtt2Scores( allTeamsScores, games );
-    }
 
+    CommonPlayedTeamFinder commonPlayedTeamFinder = new CommonPlayedTeamFinder();
+    commonPlayedTeamFinder.findCommonPlayedTeams( games, null, null, 1 );
 
-
-    System.out.println("team,ott,ott2");
-    for(TeamScores scores : allTeamsScores.values())
-    {
-      System.out.println(scores);
-    }
-
-//    int loss = 0;
-//    int win = 0;
-//    for(int i = 0; i < games.size(); i++)
+    //OTT
+//    OttScoreCalculator ottScoreCalculator = new OttScoreCalculator();
+//    Map<String, TeamScores> allTeamsScores = ottScoreCalculator.calculateOtt1Scores( games );
+//    for(int i = 0; i < 50; i++)
 //    {
-//      Game game = games.get( i );
-//      if(game.away.equals("BYU"))
-//      {
-//        if(game.away_score > game.home_score)
-//        {
-//          win += 1;
-//        }
-//        else
-//        {
-//          loss += 1;
-//        }
-//      }
-//      else if(game.home.equals("BYU"))
-//      {
-//        if(game.away_score < game.home_score)
-//        {
-//          win += 1;
-//        }
-//        else
-//        {
-//          loss += 1;
-//        }
-//      }
+//      allTeamsScores = ottScoreCalculator.calculateOtt2Scores( allTeamsScores, games );
 //    }
-//    System.out.println("wins: " + win + ", loss: " + loss);
+//
+//
+//    System.out.println("team,ott,ott2");
+//    for(TeamScores scores : allTeamsScores.values())
+//    {
+//      System.out.println(scores);
+//    }
+
+
 
     return;
   }
